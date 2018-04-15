@@ -1,0 +1,262 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/philp/Google Drive/Eight Semester/CPEN/Final
+vclkgen
+Z1 !s110 1523818695
+!i10b 1
+!s100 lmN_:hzMV[l^hf6:4h`lQ3
+IZdMab8H6NZ;ObgZ>P75fP3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1396557352
+8C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/clkgen.v
+FC:/Users/philp/Google Drive/Eight Semester/CPEN/Final/clkgen.v
+L0 1
+Z4 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z5 !s108 1523818695.000000
+!s107 C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/clkgen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/clkgen.v|
+!s101 -O0
+!i113 1
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vcpu
+Z7 !s110 1523818696
+!i10b 1
+!s100 3o79Zo6bzi?zB5<B:g=gi3
+I`Me;NU[imJaEi@ijW5?QK0
+R2
+R0
+R3
+8C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/cpu.v
+FC:/Users/philp/Google Drive/Eight Semester/CPEN/Final/cpu.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z8 !s108 1523818696.000000
+!s107 C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/cpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/cpu.v|
+!s101 -O0
+!i113 1
+R6
+vdecode
+R7
+!i10b 1
+!s100 FOIR707TPldDebk>CbcAh2
+I:HXm<a[47[P^G=Dn6WORH2
+R2
+R0
+w1523818689
+8C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/decode.v
+FC:/Users/philp/Google Drive/Eight Semester/CPEN/Final/decode.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/decode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/decode.v|
+!s101 -O0
+!i113 1
+R6
+vex
+R7
+!i10b 1
+!s100 KWlfV>QlSTZ^lLIBo]Uej1
+IhESd:eIdAic^TWYCjk;c03
+R2
+R0
+R3
+8C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/ex.v
+FC:/Users/philp/Google Drive/Eight Semester/CPEN/Final/ex.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/ex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/ex.v|
+!s101 -O0
+!i113 1
+R6
+vifetch
+Z9 !s110 1523818697
+!i10b 1
+!s100 W74H<hCo]YN?Q5m@32ZSz3
+I>2IYQ<MEe983M5iSg_0Ri3
+R2
+R0
+w1458525736
+8C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/ifetch.v
+FC:/Users/philp/Google Drive/Eight Semester/CPEN/Final/ifetch.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1523818697.000000
+!s107 C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/ifetch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/ifetch.v|
+!s101 -O0
+!i113 1
+R6
+vmem
+R9
+!i10b 1
+!s100 IKMj;7hJhK8c1l0cR8hLc3
+IP65j:0L8Kbohb1JWM2iRn0
+R2
+R0
+w1458525882
+8C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/mem.v
+FC:/Users/philp/Google Drive/Eight Semester/CPEN/Final/mem.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/mem.v|
+!s101 -O0
+!i113 1
+R6
+vreg_dec_ex
+R9
+!i10b 1
+!s100 ;PPE2L0`8j`>Ig:eN3[WB0
+IlkCdI<gWobgB]APZ<XU_L3
+R2
+R0
+R3
+8C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_dec_ex.v
+FC:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_dec_ex.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_dec_ex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_dec_ex.v|
+!s101 -O0
+!i113 1
+R6
+vreg_ex_mem
+R9
+!i10b 1
+!s100 [HkUc;_fVQ5c[bQ5<@?EO1
+IV;SD>Pz;>E[TAJ8E`51[J1
+R2
+R0
+R3
+8C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_ex_mem.v
+FC:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_ex_mem.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_ex_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_ex_mem.v|
+!s101 -O0
+!i113 1
+R6
+vreg_if_dec
+R9
+!i10b 1
+!s100 1BYkQoLGXh?M^f3QJGSJ:2
+IDbW=9QJP<fBoO0K5oG^Y81
+R2
+R0
+R3
+8C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_if_dec.v
+FC:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_if_dec.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_if_dec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_if_dec.v|
+!s101 -O0
+!i113 1
+R6
+vreg_mem_wb
+R9
+!i10b 1
+!s100 Z?eCG@GLN5E;f94@z7BH?2
+I:V@X4Md9XhBLC1nS=Ye4K1
+R2
+R0
+R3
+8C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_mem_wb.v
+FC:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_mem_wb.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_mem_wb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_mem_wb.v|
+!s101 -O0
+!i113 1
+R6
+vregfil
+R9
+!i10b 1
+!s100 QMN^M7b1;8zA@N:lGzP6L0
+IajRRDI4GYaH=QOP39fif]3
+R2
+R0
+R3
+8C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/regfil.v
+FC:/Users/philp/Google Drive/Eight Semester/CPEN/Final/regfil.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/regfil.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/regfil.v|
+!s101 -O0
+!i113 1
+R6
+vwb
+R1
+!i10b 1
+!s100 =`nEODnnISJ@DIl]OdliG0
+I1GlO1`FG4IH9VNfnMjRQf3
+R2
+R0
+R3
+8C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/wb.v
+FC:/Users/philp/Google Drive/Eight Semester/CPEN/Final/wb.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/wb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/wb.v|
+!s101 -O0
+!i113 1
+R6

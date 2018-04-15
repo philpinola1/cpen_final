@@ -1,0 +1,112 @@
+{C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/mem.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/mem.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mem
+
+Top level modules:
+	mem
+
+} {} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/cpu.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/cpu.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/wb.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/wb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module wb
+
+Top level modules:
+	wb
+
+} {} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/code.v} {0 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/code.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+** Error: (vlog-13069) C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/code.v(1): near "900100": syntax error, unexpected INTEGER NUMBER, expecting class.
+
+
+} {3.0 4.0} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_mem_wb.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_mem_wb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module reg_mem_wb
+
+Top level modules:
+	reg_mem_wb
+
+} {} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/ex.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/ex.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ex
+
+Top level modules:
+	ex
+
+} {} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_if_dec.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_if_dec.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module reg_if_dec
+
+Top level modules:
+	reg_if_dec
+
+} {} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/codeCommented.v} {0 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/codeCommented.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+** Error: (vlog-13069) C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/codeCommented.v(2): near "900100": syntax error, unexpected INTEGER NUMBER, expecting class.
+
+
+} {3.0 4.0} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_ex_mem.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_ex_mem.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module reg_ex_mem
+
+Top level modules:
+	reg_ex_mem
+
+} {} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/data(original).v} {0 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/data(original).v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+** Error: (vlog-13069) C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/data(original).v(1): near "@": syntax error, unexpected '@', expecting class.
+
+
+} {3.0 4.0} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/regfil.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/regfil.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module regfil
+
+Top level modules:
+	regfil
+
+} {} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/data.v} {0 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/data.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+** Error: (vlog-13069) C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/data.v(1): near "@": syntax error, unexpected '@', expecting class.
+
+
+} {3.0 4.0} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/ifetch.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/ifetch.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ifetch
+
+Top level modules:
+	ifetch
+
+} {} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/files.v} {0 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/files.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+** Error: (vlog-13069) C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/files.v(1): near ".": syntax error, unexpected '.'.
+
+** Error: C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/files.v(1): (vlog-13205) Syntax error found in the scope following 'ifetch'. Is there a missing '::'?
+
+
+} {3.0 4.0 5.0 6.0} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/decode.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/decode.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module decode
+
+Top level modules:
+	decode
+
+} {} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/clkgen.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/clkgen.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module clkgen
+
+Top level modules:
+	clkgen
+
+} {} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_dec_ex.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/reg_dec_ex.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module reg_dec_ex
+
+Top level modules:
+	reg_dec_ex
+
+} {} {}}

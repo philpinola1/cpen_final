@@ -1,0 +1,12 @@
+ifetch.v
+decode.v
+ex.v
+mem.v
+wb.v
+regfil.v
+clkgen.v
+reg_if_dec.v
+reg_dec_ex.v
+reg_ex_mem.v
+reg_mem_wb.v
+cpu.v
