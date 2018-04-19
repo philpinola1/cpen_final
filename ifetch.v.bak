@@ -20,7 +20,7 @@
 		always @ (negedge clock) 
 		begin
 		
-			if(!stall)  //if not stalling
+			if(!stall)
 			begin
 				if(pc_pulse)
 				begin

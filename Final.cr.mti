@@ -88,14 +88,7 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 ** Error: C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/files.v(1): (vlog-13205) Syntax error found in the scope following 'ifetch'. Is there a missing '::'?
 
 
-} {3.0 4.0 5.0 6.0} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/decode.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/decode.v}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module decode
-
-Top level modules:
-	decode
-
-} {} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/clkgen.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/clkgen.v}
+} {3.0 4.0 5.0 6.0} {}} {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/clkgen.v} {1 {vlog -work work -stats=none {C:/Users/philp/Google Drive/Eight Semester/CPEN/Final/clkgen.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module clkgen
 

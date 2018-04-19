@@ -4,7 +4,6 @@
 			
 		input [0:31] ir,pc_in;
 		input clock;
-		
 
 		//make some buffers to store the last a_reg_addr and b_reg_addr
 		//then, compare to the next ir [6:10] and ir[11:15]
@@ -21,6 +20,8 @@
 		reg stall_if,stall_pipe;
 
 		reg[0:5] prevRegA, prevRegB;
+
+		reg[0:1] counter;
 		
 		reg [0:31] temp;
 		
@@ -31,16 +32,25 @@
 		end
 
 		always @ (negedge clock)
+
 		begin
 			pc_out=pc_in;
 			op=ir[0:5];
 			fc=ir[26:31];
 
-
-			if ( prevRegA == ir[6:10] || prevRegA == ir[11:15] || prevRegB == ir[6:10] || prevRegB == ir[11:15] )	//stall 3 times
+			if(counter != 0)
 				begin
-				stall_if = 1'b1;     // or 3?
+				stall_if = 1'b1;
 				stall_pipe = 1'b1;
+				counter--;
+				end
+			
+			//detects the hazard
+			else if ( prevRegA == ir[6:10] || prevRegA == ir[11:15] || prevRegB == ir[6:10] || prevRegB == ir[11:15] )	//stall 3 times
+				begin
+				stall_if = 1'b1;     // if
+				stall_pipe = 1'b1;    //pipe
+				counter = 2'b11;  
 				end
 				 
 			else 
@@ -68,9 +78,11 @@
 							immed={16'b1111111111111111,ir[16:31]};
 					end
 					endcase
-				end
 
+		//should only be changed if we didn't stall this cycle
 		prevRegA = ir[6:10];
 		prevRegB = ir[11:15];
+				end
+
 		end
 	endmodule
